@@ -92,13 +92,7 @@
     <h1>My Portfolio</h1>
     <p>Welcome to my portfolio</p>
   </header>
-
-  <nav>
-    <a href="index.md">Home</a>
-    <a href="about.md">About</a>
-    <a href="contact.md">Contact</a>
-  </nav>
-
+  
   <div class="container">
     <section>
       <h2>Home</h2>
