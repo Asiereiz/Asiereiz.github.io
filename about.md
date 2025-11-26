@@ -3,6 +3,6 @@ layout: default
 title: About
 ---
 
-# About
+# About Me
 
-Just a minimal About page.
+This is a minimal About page with the same style as the homepage.
