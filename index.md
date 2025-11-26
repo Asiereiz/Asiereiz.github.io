@@ -62,3 +62,52 @@
 
     section {
       background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio</p>
+  </header>
+
+  <nav>
+    <a href="index.md">Home</a>
+    <a href="about.md">About</a>
+    <a href="contact.md">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Home</h2>
+      <p>This is my new page!!</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
