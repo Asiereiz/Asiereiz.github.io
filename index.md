@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asiereiz Portfolio</title>
+  <title>My Simple Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f5f5;
+      background: #f0f0f0;
       color: #333;
     }
     header {
-      background: #1a1a1a;
+      background: #222;
       color: white;
-      padding: 2rem;
       text-align: center;
+      padding: 2rem;
     }
     nav {
       background: #333;
-      padding: 1rem;
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 1.5rem;
+      padding: 1rem;
     }
     nav a {
       color: white;
@@ -30,64 +30,60 @@
       font-weight: bold;
     }
     .container {
-      max-width: 900px;
+      max-width: 800px;
       margin: auto;
       padding: 2rem;
     }
-    .card {
+    section {
       background: white;
       padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     footer {
-      background: #1a1a1a;
+      background: #222;
       color: white;
       text-align: center;
       padding: 1rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Showcasing my projects, skills, and experience</p>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my simple portfolio</p>
   </header>
+
   <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
-  <div class="container">
 
-    <section id="about" class="card">
+  <div class="container">
+    <section id="about">
       <h2>About Me</h2>
-      <p>Hello! I'm a technology enthusiast passionate about software development, intelligent systems, and optimization. I enjoy creating clean, efficient solutions and continuously learning new tools and techniques.</p>
+      <p>Hi! I'm a developer interested in creating simple and clean solutions.</p>
     </section>
 
-    <section id="projects" class="card">
+    <section id="projects">
       <h2>Projects</h2>
       <ul>
-        <li><strong>Traffic Simulator Enhancement:</strong> Added console-mode features for speed tracking per road.</li>
-        <li><strong>BalancedLSS Strategy:</strong> Implemented dynamic traffic light decision-making based on vehicle queue balance.</li>
-        <li><strong>Fuzzy-PD Controller:</strong> Designed and analyzed a fuzzy logic control system for liquid-level regulation.</li>
-        <li><strong>Expert System for PID Tuning:</strong> Automated PID improvement in MATLAB using rule‑based logic.</li>
+        <li>Project 1</li>
+        <li>Project 2</li>
       </ul>
     </section>
 
-    <section id="contact" class="card">
+    <section id="contact">
       <h2>Contact</h2>
-      <p>You can reach me at:</p>
-      <p>Email: <strong>your_email@example.com</strong></p>
-      <p>GitHub: <a href="https://github.com/Asiereiz">github.com/Asiereiz</a></p>
+      <p>Email: <strong>example@example.com</strong></p>
     </section>
-
   </div>
 
   <footer>
-    <p>© 2025 Asiereiz — All Rights Reserved</p>
+    <p>© 2025 — All Rights Reserved</p>
   </footer>
 </body>
 </html>
