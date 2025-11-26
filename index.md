@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Portfolio</title>
+  <title>My Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -53,7 +53,7 @@
 <body>
   <header>
     <h1>My Portfolio</h1>
-    <p>Welcome to my simple portfolio</p>
+    <p>Welcome to my portfolio!!</p>
   </header>
 
   <nav>
@@ -65,7 +65,7 @@
   <div class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>Hi! I'm a developer interested in creating simple and clean solutions.</p>
+      <p>Hi! I'm Asier.</p>
     </section>
 
     <section id="projects">
@@ -78,7 +78,7 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <strong>example@example.com</strong></p>
+      <p>Email: <strong>asieremail@gmail.com</strong></p>
     </section>
   </div>
 
